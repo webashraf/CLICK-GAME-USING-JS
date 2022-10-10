@@ -1,0 +1,50 @@
+body {
+    background-image: url("./image/Fanush.jpg");
+    background-color: #101036 !important;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    font-family: 'Silkscreen', cursive !important;
+
+}
+
+.menuParent{
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 400;
+    list-style: none;
+}
+.site-title{
+    color: whitesmoke;
+}
+header {
+    background-color: rgba(140, 0, 0, 0.65);
+}
+/* Main Boddy CSS  */
+.countValue{
+    font-size: 165px;
+    color: whitesmoke;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+p{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+button.btn {
+    color: white;
+}
+
+/* Responsive css */
+@media all and (max-width: 600px){
+    .countValue{
+        font-size: 118px !important;
+        color: red !important;
+    }
+}
